@@ -25,7 +25,7 @@ with open("output.jtbackup", 'w') as plist:
         try:
             with open(path) as f: pass
         except IOError:
-            print path
+            pass
         else:
             with open(path) as f:
                 file_data = {
