@@ -18,7 +18,11 @@ with open("output.jtbackup", 'w') as plist:
     directory = os.path.expanduser(sys.argv[1])
     for filename in os.listdir(directory):
         path = os.path.join(directory, filename)
+
+        # Remove the file format suffix
         title = suffix_regex.sub('', filename)
+
+        # Skip dotfiles
         if path.startswith("."):
             continue
 
