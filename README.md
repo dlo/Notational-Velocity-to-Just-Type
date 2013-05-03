@@ -1,5 +1,5 @@
 Notational Velocity → Just Type
-================================
+-------------------------------
 
 This script will create a Just Type backup file that you can use to import notes previously kept through Notational Velocity.
 
