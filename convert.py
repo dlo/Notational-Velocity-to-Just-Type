@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 from datetime import datetime
-import glob
 import os.path
 import plistlib
 import sys
