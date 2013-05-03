@@ -13,7 +13,6 @@ data = {
 }
 
 suffix_regex = re.compile(r'\.\w{1,3}$')
-mpa = dict.fromkeys(range(32))
 
 with open("output.jtbackup", 'w') as plist:
     directory = os.path.expanduser(sys.argv[1])
