@@ -3,8 +3,8 @@
 from datetime import datetime
 import os.path
 import plistlib
-import sys
 import re
+import sys
 
 data = {
     'date_saved': datetime.now(),
